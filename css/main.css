@@ -107,6 +107,7 @@ footer{
 .imgs{
   width: 50%;
   border: 10px solid white;
+  cursor: pointer;
 }
 .col-4{
   /*(4/12)*100*/
