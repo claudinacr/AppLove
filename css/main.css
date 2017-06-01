@@ -38,8 +38,8 @@ a:hover {
 }
 .logo{
   float: right;
-  width: 80px;
-  height: 80px
+  width: 80px;/*ojo cambio*/
+  height: 80px;
 }
 header{
   position: fixed;
@@ -79,7 +79,7 @@ header{
   background-color: #F17C72;
   text-align: center;
   color: #fff;
-  padding: 70px 7px;
+  padding: 70px 70px;/*ojo, cambio*/
 }
 .box-services{
   display: inline-block;
@@ -97,6 +97,173 @@ footer{
   color: white;
   padding-top: 7px;
 }
-
-
-
+#works{
+  text-align: center;
+  padding: 70px 70px;
+}
+.row{
+  padding: 15px;
+}
+.imgs{
+  width: 50%;
+  border: 10px solid white;
+}
+.col-4{
+  /*(4/12)*100*/
+  width: 31.333333%;
+  display: inline-block;
+}
+.col-4 p{
+    font-weight: bold;
+}
+#container-modal{
+  background-color: rgba(46, 204, 113, 0.9);
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+.modal-ghost{
+  display: none;
+}
+#container-modal .modal-imgs{
+  width: 10%;
+  margin: 0 auto;
+}
+.modal-close{
+  position: absolute;
+  top: 55px;
+  right: 335px;
+  z-index: 3;
+  cursor: pointer;
+}
+.close-button{
+  width: 25px;
+}
+#im-uno{
+  background-image: url('../assets/images/img-1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 51%;
+  height: 90%;
+  border: 7px solid white;
+}
+#im-uno{
+  position: absolute;
+  top: 41px;
+  left: 343px;
+}
+#im-dos{
+  background-image: url('../assets/images/img-2.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 51%;
+  height: 90%;
+  border: 7px solid white;
+}
+#im-dos{
+  position: absolute;
+  top: 41px;
+  left: 343px;
+}
+#im-tres{
+  background-image: url('../assets/images/img-3.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 51%;
+  height: 90%;
+  border: 7px solid white;
+}
+#im-tres{
+  position: absolute;
+  top: 41px;
+  left: 343px;
+}
+#im-cuatro{
+  background-image: url('../assets/images/img-4.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 51%;
+  height: 90%;
+  border: 7px solid white;
+}
+#im-cuatro{
+  position: absolute;
+  top: 41px;
+  left: 343px;
+}
+#im-cinco{
+  background-image: url('../assets/images/img-5.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 51%;
+  height: 90%;
+  border: 7px solid white;
+}
+#im-cinco{
+  position: absolute;
+  top: 41px;
+  left: 343px;
+}
+#im-seis{
+  background-image: url('../assets/images/img-6.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 51%;
+  height: 90%;
+  border: 7px solid white;
+}
+#im-seis{
+  position: absolute;
+  top: 41px;
+  left: 343px;
+}
+#im-siete{
+  background-image: url('../assets/images/img-7.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 51%;
+  height: 90%;
+  border: 7px solid white;
+}
+#im-siete{
+  position: absolute;
+  top: 41px;
+  left: 343px;
+}
+#im-ocho{
+  background-image: url('../assets/images/img-.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 51%;
+  height: 90%;
+  border: 7px solid white;
+}
+#im-ocho{
+  position: absolute;
+  top: 41px;
+  left: 343px;
+}
+#im-nueve{
+  background-image: url('../assets/images/img-9.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 51%;
+  height: 90%;
+  border: 7px solid white;
+}
+#im-nueve{
+  position: absolute;
+  top: 41px;
+  left: 343px;
+}
